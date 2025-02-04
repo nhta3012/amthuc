@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ẨM THỰC VIỆT NAM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Checkbox để hiển thị và ẩn popup -->
+    <input type="checkbox" id="contact-checkbox" class="contact-checkbox">
+    
+    <header>
+        <div class="header-title">
+            <h1>ẨM THỰC VIỆT NAM</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#" onclick="location.reload(); return false;">Trang chủ</a></li>
+                <li><a href="https://vi.wikipedia.org/wiki/Ẩm_thực_Việt_Nam" target="_blank">Giới thiệu</a></li>
+                <li><label for="contact-checkbox" class="contact-label">Liên hệ</label></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="gioi-thieu">
+        <h2>Giới Thiệu Về Ẩm Thực Việt Nam</h2>
+        <p>Ẩm thực Việt Nam đa dạng và phong phú, phản ánh nền văn hóa lâu đời và phong cảnh tự nhiên đa dạng của đất nước. Từ những món ăn nhẹ nhàng như bánh mì, cơm tấm đến những món sôi xào phức tạp như phở, mỗi món đều mang đậm bản sắc dân tộc. Dưới đây là giới thiệu về 5 món ăn Việt Nam nổi tiếng:</p>
+    </section>
+    <section id="danh-sach-mon-an">
+        <h2>Danh Sách Các Món Ăn</h2>
+        <div class="menu-links">
+            <a href="#pho">Phở</a>
+            <a href="#banhmi">Bánh Mì</a>
+            <a href="#comtam">Cơm Tấm</a>
+            <a href="#banhcuon">Bánh Cuộn</a>
+            <a href="#che">Chè</a>
+        </div>
+    </section>
+    <main>
+        <section id="pho" class="mon-an">
+            <div class="mon-an-image">
+                <img src="img/pho.png" alt="Phở">
+            </div>
+            <div class="mon-an-content">
+                <h2>Phở</h2>
+                <p>Phở là món ăn truyền thống của Việt Nam, đặc biệt phổ biến ở miền Bắc. Đây là một món ăn bún hoặc mì ăn kèm với thịt nướng hoặc gia cầm, rau sống và nước dùng đặc trưng.</p>
+            </div>
+        </section>
+        <section id="banhmi" class="mon-an">
+            <div class="mon-an-image">
+                <img src="img/banhmi.png" alt="Bánh Mì">
+            </div>
+            <div class="mon-an-content">
+                <h2>Bánh Mì</h2>
+                <p>Bánh mì Việt Nam là sự kết hợp độc đáo giữa bánh mì Pháp và các nguyên liệu địa phương như thịt nướng, rau sống, đậu phộng và tương ớt.</p>
+            </div>
+        </section>
+        <section id="comtam" class="mon-an">
+            <div class="mon-an-image">
+                <img src="img/comtam.png" alt="Cơm Tấm">
+            </div>
+            <div class="mon-an-content">
+                <h2>Cơm Tấm</h2>
+                <p>Cơm tấm là món ăn phổ biến ở miền Nam Việt Nam, thường được thưởng thức vào buổi sáng. Cơm tấm kết hợp với nhiều loại rau sống, thịt nướng, trứng chiên và nước mắm đặc trưng.</p>
+            </div>
+        </section>
+        <section id="banhcuon" class="mon-an">
+            <div class="mon-an-image">
+                <img src="img/banhcuon.png" alt="Bánh Cuộn">
+            </div>
+            <div class="mon-an-content">
+                <h2>Bánh Cuộn</h2>
+                <p>Bánh cuốn là món ăn nhẹ nhàng, được làm từ lớp bánh bột mỏng tròn cuộn với nhân thịt nướng, đậu xanh và hành lá, sau đó hấp chín.</p>
+            </div>
+        </section>
+        <section id="che" class="mon-an">
+            <div class="mon-an-image">
+                <img src="img/che.png" alt="Chè">
+            </div>
+            <div class="mon-an-content">
+                <h2>Chè</h2>
+                <p>Chè là món nước đường đặc trưng của Việt Nam, thường được thưởng thức vào mùa hè. Nó thường được làm từ các loại hạt như đậu đỏ, đậu đen, hạt sen và các loại thảo dược khác.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 @nhta3012 - Day 1 Nhom 1</p>
+            <p><a href="https://zalo.me/+84327211595" target="_blank">Contact: Zalo</a></p>
+        </div>
+    </footer>
+
+    <!-- Popup Liên Hệ -->
+    <div id="contact-popup" class="popup">
+        <div class="popup-content">
+            <label for="contact-checkbox" class="close-button">&times;</label>
+            <h2>Liên Hệ</h2>
+            <p><strong>Facebook:</strong> <a href="https://fb.me/nhta.user.dev/" target="_blank">Liên hệ</a></p>
+            <p><strong>Zalo:</strong> <a href="https://zalo.me/+84327211595" target="_blank">Liên hệ</a></p>
+            <p><strong>Email:</strong> nhta3012@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>
